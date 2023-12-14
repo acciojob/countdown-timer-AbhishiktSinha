@@ -33,10 +33,6 @@ function startNewTimer(event) {
 	intervalId =setInterval(()=> {
 		decrementTimer(countDownDisplay.innerText);
 	}, 1000);
-
-	setTimeout(()=>{
-		clearInterval(intervalId)
-	}, 60000);
 	
 }
 
